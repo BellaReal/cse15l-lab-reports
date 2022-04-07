@@ -1,5 +1,5 @@
 # Hey!
-## Welcome to this website.
+## Welcome to my website :o
 *This* is my first time using **GitHub pages**.
 
 [This is a link]()
@@ -10,7 +10,7 @@
 
 ---
 
-- here is a list
+- here is a very cool list
 - here are things in the list
 - here is the last thing in the list
 
