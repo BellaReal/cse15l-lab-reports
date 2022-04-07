@@ -1,1 +1,1 @@
-Here is my first lab report.
+![VSCodeSet-Up](vscode-setup-screenshot.png)
