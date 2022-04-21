@@ -1,8 +1,9 @@
 # Lab Report 2 - Incremental Development/Bugs
+## By Isabella Real
 
 In this lab report, I will outline 3 different bugs found when trying to search for and print out the links to sites in a .md file.
 
-## Bug 1: empty lines at end of code -> infinite loop
+### Bug 1: empty lines at end of code -> infinite loop
 
 -Here are the changes made in the code to fix the bug:
 ![Code Changes Made](fix-for-reading-empty-lines1.png)
@@ -17,7 +18,7 @@ In this lab report, I will outline 3 different bugs found when trying to search 
 -Explaination of bug/symptom/failure-inducing input:
 This bug was caused in part by the loop boundaries that originally didn't stop until at the end of a file. The symptom was an infinite loop whenever a file had empty lines at the end of it.  Any files with empty lines would be considered failure-inducing inputs in this case.
 
-## Bug 2: images in code -> images printed in output
+### Bug 2: images in code -> images printed in output
 -Here are the changes made in the code to fix the bug:
 ![Code Changes Made](fix-for-image-bug1.png)
 ![More Changes](fix-for-image-bug2.png)
@@ -32,7 +33,7 @@ This bug was caused in part by the loop boundaries that originally didn't stop u
 -Explaination of bug/symptom/failure-inducing input:
 This bug is from us not distinguishing between images and links since the format is almost the same for images as it is for links.  The symptom of the bug is that the image file name is being printed as a link, when we are only looking for links.  The failure-inducing input is any file with an image.
 
-## Bug 3: empty proper formatting -> incorrect output
+### Bug 3: empty proper formatting -> incorrect output
 Here are the changes made in the code to fix the bug:
 ![Code Changes Made](fix-for-empty-bug.png)
 
