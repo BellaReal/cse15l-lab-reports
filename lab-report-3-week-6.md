@@ -7,7 +7,7 @@ even more pleasant and streamlined.
 ### Streamlining ssh configuration
 
 - **Here is the updated config file containing the information for the ieng6 server and my account information**
-![Updated Config File](.ssh-config-file.png)
+![Updated Config File](config-file-screenshot.png)
 This allows us to just use the command `ssh ieng6` rather than the much longer original command `ssh cs15lsp22amy@ieng6.ucsd.edu` to log onto the ieng6 server.
 
 - **Here is the ssh command in action with the updated config file**
